@@ -331,9 +331,24 @@ header {
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	.red {
+		position: relative;
+		left: 47.5%;
+		width: 5vw;
+	}
+}
+
+
 .hr {
 	position: relative;
 	top: 170px;
+}
+
+@media screen and (min-width: 2500px) {
+	.hr {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 380px) {
@@ -1033,9 +1048,9 @@ header {
 
 .nav {
 	position: relative;
-	top: -404px;
+	top: -554px;
 	background-color: #000000;
-	left: 850px;
+	left: 65%;
 	width: 30vw;
 	height: 57vh;
 	max-width: 400px;
@@ -1144,6 +1159,14 @@ header {
 		position: relative;
 		left: 0;
 		min-height: 500px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.nav {
+		position: relative;
+		width: 50%;
+		min-width: 17%;
 	}
 }
 
